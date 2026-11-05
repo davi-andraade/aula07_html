@@ -136,3 +136,12 @@ th{
 .link:hover{
     background-color: #104771;
 }
+
+.menu-horizontal .submenu{
+    display: none;
+}
+
+.menu-horizontal li:hover .submenu{
+    display: block;
+    margin-top: 10px;
+}
